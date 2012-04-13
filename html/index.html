@@ -1,0 +1,321 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+
+<head id="vivatrealty.ru" data-template-set="html5-reset">
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Главная</title>
+	<meta name="title" content="">
+	<meta name="description" content="">
+	<meta name="google-site-verification" content="">
+	<meta name="author" content="Vivat Realty">
+	<meta name="Copyright" content="Copyright Vivat Realty 2012. All Rights Reserved.">
+	<!-- Dublin Core Metadata : http://dublincore.org/ -->
+	<meta name="DC.title" content="Vivat Realty">
+	<meta name="DC.subject" content="What you're about.">
+	<meta name="DC.creator" content="Who made this site.">
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<link rel="stylesheet" href="../css/vivat.css">
+	<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+	<script src="../js/modernizr-1.7.min.js"></script>
+</head>
+<body>
+
+<header class="page-header">
+    <div class="clearfix">
+    	<div class="col_l">
+    	    <img src="../i/logo.png" alt="Vivat Realty" class="page-header-logo">
+    	</div>
+    	<div class="col_r">
+        	<nav class="company-nav">
+        	    <h2 class="company-nav-title">Навигация сайта Vivat Realty</h2>
+        		<ul class="company-nav-items">
+        			<li class="company-nav-item"><a href="about.html">О компании</a></li>
+        			<li class="company-nav-item"><a href="guarantee.html">Гарантии</a></li>
+        			<li class="company-nav-item"><a href="contacts.html">Контакты</a></li>
+        		</ul>
+        	</nav>
+        	<p class="page-header-contacts"><span class="phone"><small class="phone-code">(495)</small> 725-37-80</span> <span class="page-header-contacts-txt">&hellip;или <a href="">оставьте свой номер</a> и&nbsp;мы&nbsp;перезвоним</span></p>
+        	<nav class="realty-nav">
+                <h2 class="realty-nav-title">Навигация агентства Vivat Realty</h2>
+                <ul class="realty-nav-items">
+         	       <li class="realty-nav-item realty-nav-item_fst"><a href="">Земельные участки</a></li>
+         	       <li class="realty-nav-item"><a href="">Продажа домов</a></li>
+         	       <li class="realty-nav-item realty-nav-item_r">
+         	           <h3 class="realty-nav-item-title">Местоположение</h3>
+         	           <ul class="location">
+         	               <li class="location-item location-item_act"><a href=""><span>Подмосковье</span></a></li>
+         	               <li class="location-item"><a href=""><span>Кипр</span></a></li>
+         	               <li class="location-item"><a href=""><span>Италия</span></a></li>
+         	               <li class="location-item"><a href=""><span>Азорские острова</span></a></li>
+         	           </ul>
+         	       </li>
+                </ul>
+        	</nav>
+        </div>
+    </div>
+</header><!-- /Page header -->
+	
+<div class="page-content">
+    <h1 class="page-title none">Агентство Vivat Realty</h1>	
+	<div class="clearfix">
+    	<div class="col_l">
+    	    <section class="form form-search_sm">
+    	       <h2 class="f-title">Вы ищете:</h2>
+    	       <form action="search-results.html">
+        	       <div class="f-row">
+        	           <label class="f-label f-label_l f-label_act"><input type="radio" name="lot_type" value="" checked tabindex="1"> Загородный дом</label>
+        	           <label class="f-label f-label_r"><input type="radio" name="lot_type" value="" tabindex="2"> Земельный участок</label>
+        	       </div>
+        	       <div class="f-row f-row_dvd">
+        	           <label class="f-label" for="highway">Шоссе:</label>
+        	           <select id="highway" name="highway" tabindex="3">
+        	               <option>Все</option>
+        	           </select>
+        	       </div>
+        	       <div class="f-row f-row_dvd">
+        	           <label class="f-label" for="from_mcad">От МКАД:</label>
+        	           <select id="from_mcad" name="from_mcad" tabindex="4">
+        	               <option>Любое расстояние</option>
+        	           </select>
+        	       </div>
+        	       <div class="f-row f-row_dvd">
+        	           <label class="f-label" id="area">Площадь:</label>
+        	           <select id="area" name="area" tabindex="5">
+        	               <option>Любая</option>
+        	           </select>
+        	       </div>
+        	       <div class="f-row f-row_dvd f-row_nbrd">
+        	           <label class="f-label" for="price">Стоимость:</label>
+        	           <span class="f-row_txt">до <input type="text" id="price" class="f-inp_price" name="price" tabindex="6"> рублей</span>
+        	       </div>
+        	       <div class="f-row f-row_nbrd">
+        	           <span class="f-control"><input type="text" placeholder="Ищете что-то конкретное?" title="Ищете что-то конкретное?" tabindex="7" name="keywords" id="keywords"></span>
+        	       </div>
+        	       <div class="f-row f-row_nbrd f-row_submit">
+        	           <input type="submit" class="btn" value="Найти" tabindex="8">
+        	           <a href="" class="pseudo-link">Очистить</a>
+        	       </div>
+        	       <div class="f-row f-row_nbrd f-row_opt">
+        	           <a href="search-wide.html">Расширенный поиск</a>
+        	       </div>
+               </form>
+    	    </section><!-- /Form -->
+
+    	    <p class="make-request">
+    	       <a href="" class="btn btn_request"><i class="i i-request"></i>Отправить заявку</a>
+    	       <br>
+    	       Напишите свои пожелания, и мы подбрем&nbsp;участок или дом вашей мечты!
+    	    </p>
+    	    
+ 	       <section class="offers">
+ 	           <h2 class="offers-title">Интересные предложения:</h2>
+ 	           <article class="offer">
+ 	               <a href="offer.html">
+ 	                   <img src="../i/temp/p3.jpg" alt="">
+     	               <h3 class="offer-title">Земельный участок, Дмитровское направление</h3>
+                       <p>100 соток, берег реки</p>
+                   </a>
+ 	           </article>
+ 	           <article class="offer">
+ 	               <a href="offer.html">
+ 	                   <img src="../i/temp/p4.jpg" alt="">
+     	               <h3 class="offer-title">Земельный участок, Дмитровское направление</h3>
+                       <p>100 соток, берег реки</p>
+                   </a>
+ 	           </article>
+ 	           <article class="offer">
+ 	               <a href="offer.html">
+ 	                   <img src="../i/temp/p3.jpg" alt="">
+     	               <h3 class="offer-title">Земельный участок, Дмитровское направление</h3>
+                       <p>100 соток, берег реки</p>
+                   </a>
+ 	           </article>
+ 	       </section><!-- /Offers -->
+    	</div><!-- /Column Left -->
+    		
+    	<div class="col_r">
+            <section class="promo" id="promo">
+                <h2 class="promo-title">Промо-предложения Vivat Realty</h2>
+				<div class="promo-items slides_container">
+                    <article class="promo-item">
+                        <a href="">
+                            <img src="../i/temp/slide.jpg" alt="">
+                            <section class="promo-item-cnt">
+                                <hgroup>
+                                    <h3 class="promo-item-title">Промо-предложение</h3>
+                                    <h4 class="promo-item-subtitle">Усадьба на Новой риге</h4>
+                                </hgroup>
+                                <footer class="promo-item-txt">20 км от города</footer>
+                            </section>
+                        </a>
+                    </article>
+                    <article class="promo-item">
+                        <a href="">
+                            <img src="../i/temp/slide.jpg" alt="">
+                            <section class="promo-item-cnt">
+                                <hgroup>
+                                    <h3 class="promo-item-title">Промо-предложение</h3>
+                                    <h4 class="promo-item-subtitle">Усадьба на Новой риге</h4>
+                                </hgroup>
+                                <footer class="promo-item-txt">20 км от города</footer>
+                            </section>
+                        </a>
+                    </article>
+                    <article class="promo-item">
+                        <a href="">
+                            <img src="../i/temp/slide.jpg" alt="">
+                            <section class="promo-item-cnt">
+                                <hgroup>
+                                    <h3 class="promo-item-title">Промо-предложение</h3>
+                                    <h4 class="promo-item-subtitle">Усадьба на Новой риге</h4>
+                                </hgroup>
+                                <footer class="promo-item-txt">20 км от города</footer>
+                            </section>
+                        </a>
+                    </article>
+				</div>
+    			<ul class="promo-pager">
+                    <li class="promo-pager-item"><a href="#0">1</a></li>
+                    <li class="promo-pager-item"><a href="#1">2</a></li>
+                    <li class="promo-pager-item"><a href="#2">3</a></li>
+    			</ul>
+            </section><!-- /Promo -->
+
+    	    <article class="entry">
+ 	           <h2 class="entry-title">Контекст&nbsp;&mdash; купить загородный дом или землю в&nbsp;Подмосковье</h2>
+    	       <section class="entry-content">
+                   <p>В&nbsp;этом блоке можно располагать любой текст и&nbsp;любые картинки.<br>
+                   С&nbsp;каждым днем загородная недвижимость Подмосковья&nbsp;&mdash; коттеджи и&nbsp;земельные участки&nbsp;&mdash; становится все более привлекательной для москвичей. Спрос как на&nbsp;готовые, так и&nbsp;на&nbsp;строящиеся коттеджные поселки Подмосковья очень высок&nbsp;&mdash; это подтверждается тем, что число объявлений куплю коттедж или землю в&nbsp;Подмосковье постоянно увеличивается, а&nbsp;рекламы продам дом, коттедж становится все меньше&nbsp;&mdash; люди неохотно расстаются с&nbsp;загородным жильем.</p>
+        	       <section class="offers">
+         	           <h2 class="offers-title">Интересные предложения</h2>
+        	           <article class="offer">
+        	               <a href="offer.html">
+        	                   <img src="../i/temp/p1.jpg" alt="">
+        	                   <h3 class="offer-title">Дома у воды</h3>
+        	               </a>
+        	           </article>
+        	           <article class="offer">
+        	               <a href="offer.html">
+        	                   <img src="../i/temp/p2.jpg" alt="">
+        	                   <h3 class="offer-title">Дома с бассейном</h3>
+                           </a>
+        	           </article>
+        	       </section><!-- /Offers -->
+    	           <p>На&nbsp;сегодняшний день в&nbsp;эксплуатации находятся несколько сотен коттеджных поселков в&nbsp;Московской области. Принято подразделять их&nbsp;на&nbsp;три основных класса: эконом, бизнес и&nbsp;de&nbsp;Luxe. К&nbsp;эконом классу относятся поселки, находящиеся на&nbsp;значительном расстоянии от&nbsp;столицы или на&nbsp;малопрестижных направления Подмосковья. В&nbsp;них обычно имеется минимальный набор собственной инфраструктуры; вместо индивидуальных коттеджей они нередко застраиваются многоквартирными лэйнхаусами и&nbsp;таунхаусами. Зачастую в&nbsp;таких поселках можно купить как коттедж, так и&nbsp;земельный участок. Поселки бизнес класса обычно застраиваются в&nbsp;нескольких десятках километров от&nbsp;столицы; они располагают более обширной инфраструктурой и&nbsp;комфортабельными коттеджами. Поселки класса de&nbsp;Luxe располагаются в&nbsp;непосредственной близости от&nbsp;столицы в&nbsp;наиболее престижных направлениях Подмосковья: Рублево-Успенском, Дмитровском, Новорижском и&nbsp;Ильинском. Купить <a href="">загородный дом</a> либо <a href="">земельный участок</a> в&nbsp;коттеджном поселке премиум класса&nbsp;&mdash; значит, обеспечить себя роскошным и&nbsp;качественным жильем в&nbsp;месте с&nbsp;идеальной экологией и&nbsp;красивейшей природой. Именно элитные коттеджи Подмосковья позволят вам жить &laquo;на&nbsp;полную катушку&raquo;, не&nbsp;отказывая себе ни&nbsp;в&nbsp;чем&nbsp;&mdash; такие загородные комплексы застраиваются всевозможными развлекательными, бытовыми и&nbsp;социальными объекты инфраструктуры. Элитный коттедж в&nbsp;ближайшем Подмосковье&nbsp;&mdash; идеальное решение для деловых людей, которым необходимо постоянно иметь возможность быстро добраться в&nbsp;Москву.</p>
+    	       </section>
+    	    </article><!-- /Entry -->
+    	</div><!-- /Column Right -->	
+    </div>
+</div><!-- /Page content -->
+		
+<footer class="page-footer">
+    <div class="clearfix">
+    	<img src="../i/logo-footer.png" alt="" class="page-footer-logo">
+    	<a href="" class="link_coop">Предложение о сотрудничестве</a>
+    	<span class="phone"><small class="phone-code">(495)</small> 725-37-80</span>
+    	<address>По всем вопросам пишите:<br><a href="mailto:mail@vivatrealty.ru">mail@vivatrealty.ru</a></address>
+    	<small class="page-footer-copyright">&copy; 2012 Vivat Realty</small>
+    </div>
+</footer><!-- /Page footer -->
+
+<div class="overlay"></div>
+<div class="popup">
+    <a href="" class="popup-close i i-close" title="Закрыть">Закрыть</a>
+    <section class="form form-request">
+        <hgroup>
+            <h2 class="f-title">Оставьте контактные данные, и&nbsp;мы&nbsp;с&nbsp;вами свяжемся в&nbsp;ближайшее время:</h2>
+            <h3 class="f-subtitle">Лот # 001<br>Рублёво-Успенское шоссе</h3>
+        </hgroup>
+        <form action="">
+            <div class="clearfix">
+                <div class="col_l">
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="text" placeholder="Ваше имя" title="Ваше имя" tabindex="1" name="name" id="name" size="40" maxlength="255" required></span>
+         	       </div>
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="tel" placeholder="Телефон" title="Телефон" tabindex="2" name="tel" id="tel" size="40" maxlength="40" required></span>
+         	       </div>
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="text" placeholder="Эл. почта" title="Эл. почта" tabindex="3" name="email" id="email" size="40" maxlength="255" required></span>
+         	       </div>
+         	   </div>
+                <div class="col_r">
+         	       <div class="f-row">
+         	           <span class="f-control f-control_txt"><textarea cols="70" rows="5" tabindex="4" placeholder="Ваши пожелания:" title="Ваши пожелания:" name="message" id="message" required></textarea></span>
+                    </div>
+                </div>
+            </div>
+            <div class="f-row f-row_submit">
+ 	           <input type="submit" class="btn" value="Отправить" tabindex="5">
+ 	       </div>
+        </form>
+    </section>
+</div>
+
+<div class="popup">
+    <a href="" class="popup-close i i-close" title="Закрыть">Закрыть</a>
+    <section class="form form-request">
+        <h2 class="f-title">Оставьте контактные данные, и&nbsp;мы&nbsp;с&nbsp;вами свяжемся в&nbsp;ближайшее время:</h2>
+        <form action="">
+            <div class="clearfix">
+                <div class="col_l">
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="text" placeholder="Ваше имя" title="Ваше имя" tabindex="1" name="name" id="name" size="40" maxlength="255" required></span>
+         	       </div>
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="tel" placeholder="Телефон" title="Телефон" tabindex="2" name="tel" id="tel" size="40" maxlength="40" required></span>
+         	       </div>
+         	       <div class="f-row">
+         	           <span class="f-control"><input type="text" placeholder="Эл. почта" title="Эл. почта" tabindex="3" name="email" id="email" size="40" maxlength="255" required></span>
+         	       </div>
+         	   </div>
+                <div class="col_r">
+         	       <div class="f-row">
+         	           <span class="f-control f-control_txt f-control_txt_lng"><textarea cols="70" rows="5" tabindex="4" placeholder="Ваши пожелания:" title="Ваши пожелания:" name="message" id="message" required></textarea></span>
+                    </div>
+                </div>
+            </div>
+            <div class="f-row f-row_submit">
+ 	           <input type="submit" class="btn" value="Отправить" tabindex="5">
+ 	       </div>
+        </form>
+    </section>
+</div>
+
+<!-- here comes the javascript -->
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='../js/jquery-1.5.1.min.js'>\x3C/script>")</script>
+
+<!-- this is where we put our custom functions -->
+<script src="../js/slides.min.jquery.js"></script>
+<script src="../js/fns.js"></script>
+
+<!-- Asynchronous google analytics; this is the official snippet.
+	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.
+	 
+<script>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-XXXXXX-XX']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+-->
+  
+</body>
+</html>
