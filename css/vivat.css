@@ -8,8 +8,8 @@ body > .page {height:auto; min-height:100%;}
 html {background:#fff url(../i/bg.jpg) 50% 0 no-repeat;}
 body {width:940px; padding:0 20px; margin:0 auto; font:14px/21px Calibri,'PF Din Text Pro','Droid Sans Pro','Fonce Sans','DIN Next','Fette Mittelschrift','Myriad Pro','Trebuchet MS',sans-serif;}
 body, select, input, textarea {color:#000;}
-a, .map a	{color:#069;}
-a:hover, .map a:hover	{color:#f63;}
+a, .form .map a	{color:#069;}
+a:hover, .form .map a:hover	{color:#f63;}
 .pseudo-link {text-decoration:none; border-bottom:1px dotted;}
 .none {display:none;}
 
