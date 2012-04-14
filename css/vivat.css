@@ -8,8 +8,8 @@ body > .page {height:auto; min-height:100%;}
 html {background:#fff url(../i/bg.jpg) 50% 0 no-repeat;}
 body {width:940px; padding:0 20px; margin:0 auto; font:14px/21px Calibri,'PF Din Text Pro','Droid Sans Pro','Fonce Sans','DIN Next','Fette Mittelschrift','Myriad Pro','Trebuchet MS',sans-serif;}
 body, select, input, textarea {color:#000;}
-a	{color:#069;}
-a:hover	{color:#f63;}
+a, .map a	{color:#069;}
+a:hover, .map a:hover	{color:#f63;}
 .pseudo-link {text-decoration:none; border-bottom:1px dotted;}
 .none {display:none;}
 
@@ -447,13 +447,14 @@ a.i {cursor:pointer;}
 .direction {color:#333; position:relative; padding:1px 0 1px 110px;}
 .direction-title {font-size:11px; text-transform:uppercase; width:97px; overflow:hidden; position:absolute; left:8px; top:2px;}
 .direction-items {font-size:13px; display:block;}
-.direction-items input {width:13px; height:13px; margin-right:2px; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box;}
+.direction-items label {position:relative; padding:3px 0 3px 22px; display:block; line-height:15px;}
+.direction-items input {width:13px; height:13px; margin-right:2px; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box; position:absolute; left:0; top:0;}
 .direction:nth-of-type(2n) {background:#f2f2f2;}
 .direction_odd {background:#f2f2f2;}
 .ie7 .direction, .ie6 .direction {zoom:1;}
 
 /* Map */
-.map {width:607px; height:520px; overflow:hidden;}
+.map {width:607px; height:520px; overflow:hidden; color:#000;}
 .map-nav {text-align:right; font-size:18.54px;}
 .map-title {font-style:italic; margin:-5px 0 2px;}
 
