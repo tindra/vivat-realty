@@ -352,7 +352,8 @@ a.i {cursor:pointer;}
 
 .offer-entry-aside {margin-top:58px; overflow:hidden;}
 .offer-entry-aside .offers {width:auto; overflow:hidden; margin-right:-20px;}
-.offer-entry-aside .offer {border-top:1px dotted #069; padding-top:10px; display:-moz-inline-stack; display:inline-block; vertical-align:top; margin-right:-3px; padding-right:19px;}
+.offer-entry-aside .offers-title {border-bottom:1px solid #069; margin-right:20px;}
+.offer-entry-aside .offer {border:0; padding-top:10px; display:-moz-inline-stack; display:inline-block; vertical-align:top; margin-right:-3px; padding-right:19px;}
 .offer-entry-aside .offer, .offer-entry-aside .offer img {width:221px;}
 .offer-entry-aside .offer img {height:133px;}
 .ie7 .offer-entry-aside .offer, .ie6 .offer-entry-aside .offer {display:inline; zoom:1; margin-right:0;}
